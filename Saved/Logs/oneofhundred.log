@@ -1,9 +1,9 @@
-﻿Log file open, 05/21/17 21:51:44
+﻿Log file open, 05/22/17 20:08:26
 LogInit:Display: Running engine for game: oneofhundred
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-531364277) SRandInit(-531364277).
+LogInit:Display: RandInit(-1287899377) SRandInit(-1287899377).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.068044
+LogStats: Stats thread started at 1.344162
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,705 +43,490 @@ LogInit: Compiled (64-bit): May  1 2017 13:11:28
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: D:/epicgameslauncher/Unreal Engine/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.21-19.51.45:098][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.21-19.51.45:098][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.21-19.51.45:102][  0]LogInit: Computer: DESKTOP-OV56OJN
-[2017.05.21-19.51.45:102][  0]LogInit: User: NMFTHEBEST
-[2017.05.21-19.51.45:102][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.21-19.51.45:102][  0]LogInit: High frequency timer resolution =3.417965 MHz
-[2017.05.21-19.51.45:103][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.05.21-19.51.45:103][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.21-19.51.45:103][  0]LogMemory: Process Physical Memory: 263.41 MB used, 263.41 MB peak
-[2017.05.21-19.51.45:103][  0]LogMemory: Process Virtual Memory: 262.48 MB used, 262.48 MB peak
-[2017.05.21-19.51.45:103][  0]LogMemory: Physical Memory: 5402.54 MB used,  2738.23 MB free, 8140.77 MB total
-[2017.05.21-19.51.45:103][  0]LogMemory: Virtual Memory: 630.07 MB used,  2738.23 MB free, 134217728.00 MB total
-[2017.05.21-19.51.45:155][  0]LogTextLocalizationManager: No translations for ('pl-PL') exist, falling back to 'en' for localization and internationalization data.
-[2017.05.21-19.51.45:692][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.21-19.51.46:173][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.05.21-19.51.46:173][  0]LogD3D11RHI:       4059/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.05.21-19.51.46:174][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.21-19.51.46:174][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.21-19.51.46:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.21-19.51.46:179][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.21-19.51.46:179][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.21-19.51.46:179][  0]LogWindows: EnumDisplayDevices:
-[2017.05.21-19.51.46:179][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.05.21-19.51.46:179][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.21-19.51.46:179][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.21-19.51.46:179][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.21-19.51.46:180][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.05.21-19.51.46:180][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.05.21-19.51.46:180][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.05.21-19.51.46:180][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.05.21-19.51.46:180][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.21-19.51.46:640][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2017.05.21-19.51.46:640][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.21-19.51.46:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.21-19.51.46:668][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UE4Projects/GIT/oneofhundred/Intermediate/Shaders/WorkingDirectory/3688/).
-[2017.05.21-19.51.46:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NMFTHEBEST/AppData/Local/Temp/UnrealShaderWorkingDir/C6D7BE6E4394BA47172063B21E81011E/'.
-[2017.05.21-19.51.46:668][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.21-19.51.47:515][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.21-19.51.47:554][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.21-19.51.47:592][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.21-19.51.47:631][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.21-19.51.47:669][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.21-19.51.47:708][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.21-19.51.47:746][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.21-19.51.47:784][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.21-19.51.47:815][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.21-19.51.47:852][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.21-19.51.47:890][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.21-19.51.47:928][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.21-19.51.47:965][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.21-19.51.48:003][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.21-19.51.48:041][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.21-19.51.48:119][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.21-19.51.48:119][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.21-19.51.48:144][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.21-19.51.48:216][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.21-19.51.48:239][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.21-19.51.48:276][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.21-19.51.48:314][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.21-19.51.48:351][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.21-19.51.48:389][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.21-19.51.48:389][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.21-19.51.48:656][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.21-19.51.48:697][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.21-19.51.48:697][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.21-19.51.48:698][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4Projects/GIT/oneofhundred/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.21-19.51.48:698][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.21-19.51.48:698][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4Projects/GIT/oneofhundred/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.21-19.51.48:698][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.21-19.51.48:711][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.21-19.51.48:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.21-19.51.48:730][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.21-19.51.48:730][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.21-19.51.48:730][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.21-19.51.48:942][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.21-19.51.48:943][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.21-19.51.49:095][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.21-19.51.49:124][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.21-19.51.49:158][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.21-19.51.49:158][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.21-19.51.49:158][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.21-19.51.49:546][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: oneofhundred, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 312854850
-[2017.05.21-19.51.49:581][  0]LogAssetRegistry: FAssetRegistry took 0.0209 seconds to start up
-[2017.05.21-19.51.49:600][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.007515 seconds
-[2017.05.21-19.51.49:605][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.05.21-19.51.49:605][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.05.21-19.51.49:605][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.21-19.51.49:642][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.21-19.51.50:953][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.21-19.51.50:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.21-19.51.51:325][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.21-19.51.51:590][  0]SourceControl: Info Source control is disabled
-[2017.05.21-19.51.51:591][  0]SourceControl: Info Source control is disabled
-[2017.05.21-19.51.51:622][  0]SourceControl: Info Source control is disabled
-[2017.05.21-19.51.51:654][  0]SourceControl: Info Source control is disabled
-[2017.05.21-19.51.52:494][  0]LogEngine: Initializing Engine...
-[2017.05.21-19.51.52:494][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.21-19.51.52:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.21-19.51.52:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.21-19.51.52:663][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.21-19.51.52:669][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.21-19.51.52:685][  0]LogInit: FAudioDevice initialized.
-[2017.05.21-19.51.52:708][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.21-19.51.52:715][  0]LogInit: Texture streaming: Enabled
-[2017.05.21-19.51.52:767][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.21-19.51.52:826][  0]LogInit: Transaction tracking system initialized
-[2017.05.21-19.51.53:047][  0]BlueprintLog: New page: Editor Load
-[2017.05.21-19.51.53:660][  0]LocalizationService: Info Localization service is disabled
-[2017.05.21-19.51.54:111][  0]LogConsoleResponse:Display: 
-[2017.05.21-19.51.54:198][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.21-19.51.54:198][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.21-19.51.54:499][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/' took 0.01s
-[2017.05.21-19.51.54:875][  0]SourceControl: Info Source control is disabled
-[2017.05.21-19.51.54:876][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/epicgameslauncher/Unreal Engine/UE_4.15/FeaturePacks/StarterContent.upack)
-[2017.05.21-19.51.54:881][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.05.21-19.51.54:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.05.21-19.51.54:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.05.21-19.51.54:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.05.21-19.51.54:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.05.21-19.51.54:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.05.21-19.51.54:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.05.21-19.51.54:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.05.21-19.51.54:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.05.21-19.51.54:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.05.21-19.51.54:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.05.21-19.51.54:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.05.21-19.51.54:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.05.21-19.51.54:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.05.21-19.51.54:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.05.21-19.51.54:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.05.21-19.51.54:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.05.21-19.51.54:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.05.21-19.51.54:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Fire01.uasset"
-[2017.05.21-19.51.54:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.05.21-19.51.54:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.05.21-19.51.54:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.05.21-19.51.54:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Light01.uasset"
-[2017.05.21-19.51.54:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.05.21-19.51.54:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Light02.uasset"
-[2017.05.21-19.51.54:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.05.21-19.51.54:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.05.21-19.51.54:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.05.21-19.51.54:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.05.21-19.51.54:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.05.21-19.51.54:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.05.21-19.51.54:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.05.21-19.51.54:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.05.21-19.51.54:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.05.21-19.51.54:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Steam01.uasset"
-[2017.05.21-19.51.54:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.05.21-19.51.54:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.05.21-19.51.54:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.05.21-19.51.54:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.05.21-19.51.54:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.05.21-19.51.54:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.05.21-19.51.54:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.05.21-19.51.54:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.05.21-19.51.54:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.05.21-19.51.54:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.05.21-19.51.54:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.05.21-19.51.54:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.05.21-19.51.54:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.05.21-19.51.54:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.05.21-19.51.54:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.05.21-19.51.54:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.05.21-19.51.54:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.05.21-19.51.54:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.05.21-19.51.54:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.05.21-19.51.54:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.05.21-19.51.54:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.05.21-19.51.54:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.05.21-19.51.54:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/StarterMap.umap"
-[2017.05.21-19.51.54:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.05.21-19.51.54:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.05.21-19.51.54:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.05.21-19.51.54:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.05.21-19.51.54:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.05.21-19.51.54:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.05.21-19.51.54:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.05.21-19.51.54:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.05.21-19.51.54:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.05.21-19.51.54:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.05.21-19.51.54:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.05.21-19.51.54:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.05.21-19.51.54:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.05.21-19.51.54:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.05.21-19.51.54:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.05.21-19.51.54:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.05.21-19.51.54:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.05.21-19.51.54:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.05.21-19.51.54:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.05.21-19.51.54:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.05.21-19.51.54:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.05.21-19.51.54:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.05.21-19.51.54:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.05.21-19.51.54:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.05.21-19.51.54:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.05.21-19.51.54:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.05.21-19.51.54:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.05.21-19.51.54:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.05.21-19.51.54:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.05.21-19.51.54:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.05.21-19.51.54:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.05.21-19.51.54:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.05.21-19.51.54:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.05.21-19.51.54:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.05.21-19.51.54:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.05.21-19.51.54:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.05.21-19.51.54:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.05.21-19.51.54:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.05.21-19.51.54:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.05.21-19.51.54:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.05.21-19.51.54:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.05.21-19.51.54:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.05.21-19.51.54:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.05.21-19.51.54:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.05.21-19.51.54:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.05.21-19.51.54:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.05.21-19.51.54:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.05.21-19.51.54:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.05.21-19.51.54:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.05.21-19.51.54:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.05.21-19.51.54:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.05.21-19.51.54:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.05.21-19.51.54:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.05.21-19.51.54:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.05.21-19.51.54:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.05.21-19.51.54:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.05.21-19.51.54:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.05.21-19.51.55:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.05.21-19.51.55:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.05.21-19.51.55:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.05.21-19.51.55:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.05.21-19.51.55:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.05.21-19.51.55:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.05.21-19.51.55:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.05.21-19.51.55:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.05.21-19.51.55:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Door.uasset"
-[2017.05.21-19.51.55:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.05.21-19.51.55:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.05.21-19.51.55:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.05.21-19.51.55:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.05.21-19.51.55:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.05.21-19.51.55:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.05.21-19.51.55:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.05.21-19.51.55:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.05.21-19.51.55:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.05.21-19.51.55:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.05.21-19.51.55:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.05.21-19.51.55:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.05.21-19.51.55:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.05.21-19.51.55:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.05.21-19.51.55:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.05.21-19.51.55:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.05.21-19.51.55:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.05.21-19.51.55:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.05.21-19.51.55:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.05.21-19.51.55:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.05.21-19.51.55:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.05.21-19.51.55:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.05.21-19.51.55:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.05.21-19.51.55:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.05.21-19.51.55:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.05.21-19.51.55:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.05.21-19.51.55:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.05.21-19.51.55:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.05.21-19.51.55:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.05.21-19.51.55:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.05.21-19.51.55:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.05.21-19.51.55:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.05.21-19.51.55:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.05.21-19.51.55:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.05.21-19.51.55:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.05.21-19.51.55:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.05.21-19.51.55:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.05.21-19.51.55:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.05.21-19.51.55:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.05.21-19.51.55:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.05.21-19.51.55:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.05.21-19.51.55:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.05.21-19.51.55:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.05.21-19.51.55:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.05.21-19.51.55:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.05.21-19.51.55:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.05.21-19.51.55:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.05.21-19.51.55:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.05.21-19.51.55:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.05.21-19.51.55:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.05.21-19.51.55:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.05.21-19.51.55:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.05.21-19.51.55:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.05.21-19.51.55:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.05.21-19.51.55:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.05.21-19.51.55:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.05.21-19.51.55:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.05.21-19.51.55:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.05.21-19.51.55:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.05.21-19.51.55:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.05.21-19.51.55:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.05.21-19.51.55:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.05.21-19.51.55:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.05.21-19.51.55:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.05.21-19.51.55:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.05.21-19.51.55:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.05.21-19.51.55:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.05.21-19.51.55:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.05.21-19.51.55:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.05.21-19.51.55:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.05.21-19.51.55:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.05.21-19.51.55:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.05.21-19.51.55:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.05.21-19.51.55:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.05.21-19.51.55:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.05.21-19.51.55:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.05.21-19.51.55:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.05.21-19.51.55:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.05.21-19.51.55:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.05.21-19.51.55:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.05.21-19.51.55:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.05.21-19.51.55:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.05.21-19.51.55:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.05.21-19.51.55:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.05.21-19.51.55:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.05.21-19.51.55:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.05.21-19.51.55:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.05.21-19.51.55:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.05.21-19.51.55:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.05.21-19.51.55:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.05.21-19.51.55:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.05.21-19.51.55:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.05.21-19.51.55:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.05.21-19.51.55:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.05.21-19.51.55:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.05.21-19.51.55:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.05.21-19.51.55:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.05.21-19.51.55:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.05.21-19.51.55:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.05.21-19.51.55:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.05.21-19.51.55:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.05.21-19.51.55:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.05.21-19.51.55:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.05.21-19.51.55:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.05.21-19.51.55:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.05.21-19.51.55:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.05.21-19.51.55:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.05.21-19.51.55:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.05.21-19.51.55:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.05.21-19.51.56:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.05.21-19.51.56:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.05.21-19.51.56:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.05.21-19.51.56:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.05.21-19.51.56:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.05.21-19.51.56:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.05.21-19.51.56:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.05.21-19.51.56:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.05.21-19.51.56:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.05.21-19.51.57:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.05.21-19.51.57:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.05.21-19.51.57:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.05.21-19.51.57:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.05.21-19.51.57:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.05.21-19.51.57:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.05.21-19.51.57:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.05.21-19.51.57:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.05.21-19.51.57:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.05.21-19.51.57:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.05.21-19.51.57:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.05.21-19.51.57:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.05.21-19.51.57:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.05.21-19.51.57:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.05.21-19.51.57:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.05.21-19.51.57:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.05.21-19.51.57:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.05.21-19.51.57:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.05.21-19.51.57:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.05.21-19.51.57:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.05.21-19.51.57:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.05.21-19.51.57:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.05.21-19.51.57:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.05.21-19.51.57:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.05.21-19.51.57:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.05.21-19.51.57:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.05.21-19.51.57:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.05.21-19.51.57:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.05.21-19.51.57:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.05.21-19.51.57:855][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
-[2017.05.21-19.51.57:919][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2017.05.21-19.51.57:928][  0]LogSavePackage: Save=7.70ms
-[2017.05.21-19.51.57:928][  0]LogSavePackage: Moving '../../../../../../UE4Projects/GIT/oneofhundred/Saved/Floor_400x400FB0AAA7B475749D9449595A9D91BA849.tmp' to '../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.05.21-19.51.57:930][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../UE4Projects/GIT/oneofhundred/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.05.21-19.51.57:930][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.05.21-19.51.57:931][  0]Cmd: MAP LOAD FILE="../../../../../../UE4Projects/GIT/oneofhundred/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.21-19.51.57:931][  0]LightingResults: New page: Lighting Build
-[2017.05.21-19.51.57:957][  0]MapCheck: New page: Map Check
-[2017.05.21-19.51.57:957][  0]LightingResults: New page: Lighting Build
-[2017.05.21-19.51.58:258][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.05.21-19.51.58:264][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.21-19.51.58:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.21-19.51.58:314][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.046ms to complete.
-[2017.05.21-19.51.58:314][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.383
-[2017.05.21-19.51.58:373][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.21-19.51.58:455][  0]LogCollectionManager: Loaded 0 collections in 0.001056 seconds
-[2017.05.21-19.51.58:556][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Saved/Collections/' took 0.01s
-[2017.05.21-19.51.58:556][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/Developers/NMFTHEBEST/Collections/' took 0.01s
-[2017.05.21-19.51.58:556][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/Collections/' took 0.01s
-[2017.05.21-19.51.58:556][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.05.21-19.51.58:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2245 classes and 453 folders.
-[2017.05.21-19.51.58:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.05.21-19.51.58:645][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.05.21-19.51.58:674][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.05.21-19.51.58:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.21-19.51.58:758][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.21-19.51.58:808][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.05.21-19.51.58:809][  0]LogLoad: (Engine Initialization) Total time: 15.15 seconds
-[2017.05.21-19.51.58:809][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.05.21-19.51.58:809][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.05.21-19.51.58:819][  0]LogOcInput: OculusInput pre-init called
-[2017.05.21-19.51.58:834][  0]LogAssetRegistry: Asset discovery search completed in 9.2739 seconds
-[2017.05.21-19.51.58:834][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.05.21-19.51.58:834][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2017.05.21-19.51.58:838][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.21-19.51.58:845][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.21-19.51.58:848][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.21-19.51.58:852][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.21-19.51.58:945][  0]LogRenderer: Reallocating scene render targets to support 904x456 NumSamples 1 (Frame:3).
-[2017.05.21-19.51.58:945][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.21-19.52.02:251][296]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.21-19.52.02:252][296]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.21-19.52.02:390][297]Cmd: QUIT_EDITOR
-[2017.05.21-19.52.02:426][297]LogExit: Preparing to exit.
-[2017.05.21-19.52.03:132][297]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/' was aborted.
-[2017.05.21-19.52.03:143][297]LogExit: Editor shut down
-[2017.05.21-19.52.03:144][297]LogExit: Transaction tracking system shut down
-[2017.05.21-19.52.03:185][297]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.21-19.52.03:185][297]LogExit: Object subsystem successfully closed.
-[2017.05.21-19.52.03:243][297]LogD3D11RHI: Shutdown
-[2017.05.21-19.52.03:243][297]LogD3D11RHI: CleanupD3DDevice
-[2017.05.21-19.52.03:562][297]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.05.21-19.52.03:585][297]LogDirectoryWatcher: A directory notification for 'D:/epicgameslauncher/Unreal Engine/UE_4.15/FeaturePacks/' was aborted.
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.05.21-19.52.03:585][297]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.05.21-19.52.03:585][297]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/Collections/' was aborted.
-[2017.05.21-19.52.03:585][297]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/Developers/NMFTHEBEST/Collections/' was aborted.
-[2017.05.21-19.52.03:585][297]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Saved/Collections/' was aborted.
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.05.21-19.52.03:586][297]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.05.21-19.52.03:900][297]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.05.21-19.52.03:901][297]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.05.21-19.52.03:943][297]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.05.21-19.52.03:973][297]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.05.21-19.52.03:974][297]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.05.21-19.52.03:974][297]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.05.21-19.52.03:974][297]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.05.21-19.52.03:974][297]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.05.21-19.52.03:975][297]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.05.21-19.52.03:975][297]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.05.21-19.52.03:975][297]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.05.21-19.52.03:975][297]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.05.21-19.52.04:075][297]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.05.21-19.52.04:175][297]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.05.21-19.52.04:176][297]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.05.21-19.52.04:311][297]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.05.21-19.52.04:311][297]LogDirectoryWatcher: A directory notification for '../../../../../../UE4Projects/GIT/oneofhundred/Content/' was aborted.
-[2017.05.21-19.52.04:311][297]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.05.21-19.52.04:311][297]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.05.21-19.52.04:728][297]LogDerivedDataCache: Shutdown
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.05.21-19.52.04:728][297]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.05.21-19.52.04:728][297]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.05.21-19.52.04:728][297]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.05.21-19.52.04:728][297]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16401E31-4207-439D-E9D2-1DB01D06391B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=f0415fa5454c0cf01bbb6795b0700074%7C68bbf7274cac457bba6a316d7733ac72%7Ccef483d2-3334-4fa4-940f-0f9b564e3ca1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.05.21-19.52.04:745][297]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.05.21-19.52.04:746][297]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.05.21-19.52.04:747][297]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.05.21-19.52.04:747][297]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.05.21-19.52.04:747][297]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.05.21-19.52.04:747][297]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.05.21-19.52.04:747][297]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.05.21-19.52.04:748][297]LogExit: Exiting.
-[2017.05.21-19.52.04:753][297]Log file closed, 05/21/17 21:52:04
+[2017.05.22-18.08.27:195][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-18.08.27:195][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.22-18.08.27:252][  0]LogInit: Computer: DESKTOP-OV56OJN
+[2017.05.22-18.08.27:252][  0]LogInit: User: NMFTHEBEST
+[2017.05.22-18.08.27:252][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.22-18.08.27:252][  0]LogInit: High frequency timer resolution =3.417965 MHz
+[2017.05.22-18.08.27:252][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.22-18.08.27:252][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.22-18.08.27:252][  0]LogMemory: Process Physical Memory: 263.11 MB used, 263.11 MB peak
+[2017.05.22-18.08.27:252][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.05.22-18.08.27:252][  0]LogMemory: Physical Memory: 5001.94 MB used,  3138.82 MB free, 8140.77 MB total
+[2017.05.22-18.08.27:252][  0]LogMemory: Virtual Memory: 630.07 MB used,  3138.82 MB free, 134217728.00 MB total
+[2017.05.22-18.08.27:961][  0]LogTextLocalizationManager: No translations for ('pl-PL') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.22-18.08.29:215][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.22-18.08.29:695][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.05.22-18.08.29:695][  0]LogD3D11RHI:       4059/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.22-18.08.29:698][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.22-18.08.29:698][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.22-18.08.29:698][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.22-18.08.29:702][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.22-18.08.29:702][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.22-18.08.29:702][  0]LogWindows: EnumDisplayDevices:
+[2017.05.22-18.08.29:702][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.05.22-18.08.29:702][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.22-18.08.29:703][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.22-18.08.29:703][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.22-18.08.29:703][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.22-18.08.29:703][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.05.22-18.08.29:703][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.05.22-18.08.29:703][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.05.22-18.08.29:703][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.22-18.08.30:159][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.22-18.08.30:159][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.22-18.08.30:391][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.22-18.08.30:422][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UE4Projects/GIT/oneofhundred/Intermediate/Shaders/WorkingDirectory/3480/).
+[2017.05.22-18.08.30:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NMFTHEBEST/AppData/Local/Temp/UnrealShaderWorkingDir/B57B766845269A39C77B2FA3E524FA48/'.
+[2017.05.22-18.08.30:423][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.22-18.08.34:216][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.22-18.08.34:259][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.22-18.08.34:303][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.22-18.08.34:347][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.22-18.08.34:428][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.22-18.08.34:473][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.22-18.08.34:517][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.22-18.08.34:562][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.22-18.08.34:610][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.22-18.08.34:673][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.22-18.08.34:728][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.22-18.08.34:772][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.22-18.08.34:815][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.22-18.08.34:859][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.22-18.08.34:902][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.22-18.08.35:010][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.22-18.08.35:010][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.22-18.08.35:053][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.22-18.08.35:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.22-18.08.35:254][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.22-18.08.35:306][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.22-18.08.35:358][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.22-18.08.35:406][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.22-18.08.35:467][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.22-18.08.35:467][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.22-18.08.36:418][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache: Loaded boot cache 0.17s 50MB C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4Projects/GIT/oneofhundred/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4Projects/GIT/oneofhundred/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.22-18.08.36:589][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.22-18.08.36:645][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.22-18.08.36:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.22-18.08.36:822][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.22-18.08.36:977][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-18.08.36:977][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-18.08.43:475][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-18.08.43:535][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.22-18.08.45:078][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.22-18.08.45:136][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.22-18.08.45:208][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.22-18.08.45:208][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.22-18.08.45:208][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.22-18.08.49:481][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: oneofhundred, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 312854850
+[2017.05.22-18.08.49:606][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.05.22-18.08.49:690][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.071877 seconds
+[2017.05.22-18.08.49:718][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.22-18.08.49:718][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.22-18.08.49:718][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.22-18.08.49:769][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.22-18.08.58:216][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.22-18.08.58:271][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.22-18.08.59:445][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.22-18.09.00:043][  0]SourceControl: Info Source control is disabled
+[2017.05.22-18.09.00:044][  0]SourceControl: Info Source control is disabled
+[2017.05.22-18.09.00:143][  0]SourceControl: Info Source control is disabled
+[2017.05.22-18.09.00:220][  0]SourceControl: Info Source control is disabled
+[2017.05.22-18.09.02:654][  0]LogEngine: Initializing Engine...
+[2017.05.22-18.09.02:668][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.22-18.09.03:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.22-18.09.03:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.22-18.09.03:580][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.22-18.09.03:761][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-18.09.03:785][  0]LogInit: FAudioDevice initialized.
+[2017.05.22-18.09.03:807][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/NMFTHEBEST/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-18.09.03:812][  0]LogInit: Texture streaming: Enabled
+[2017.05.22-18.09.04:010][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.22-18.09.05:655][  0]LogInit: Transaction tracking system initialized
+[2017.05.22-18.09.06:222][  0]BlueprintLog: New page: Editor Load
+[2017.05.22-18.09.07:820][  0]LocalizationService: Info Localization service is disabled
+[2017.05.22-18.09.08:833][  0]LogConsoleResponse:Display: 
+[2017.05.22-18.09.11:371][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/' took 0.01s
+[2017.05.22-18.09.11:371][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.22-18.09.11:371][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.22-18.09.14:598][  0]SourceControl: Info Source control is disabled
+[2017.05.22-18.09.14:637][  0]Cmd: MAP LOAD FILE="../../../../../../UE4Projects/GIT/oneofhundred/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.22-18.09.14:652][  0]LightingResults: New page: Lighting Build
+[2017.05.22-18.09.14:946][  0]MapCheck: New page: Map Check
+[2017.05.22-18.09.14:946][  0]LightingResults: New page: Lighting Build
+[2017.05.22-18.09.17:555][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.22-18.09.18:175][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.22-18.09.18:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.22-18.09.18:335][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.975ms to complete.
+[2017.05.22-18.09.18:335][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.722
+[2017.05.22-18.09.19:332][  0]LogCollectionManager: Loaded 0 collections in 0.001024 seconds
+[2017.05.22-18.09.19:444][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Saved/Collections/' took 0.01s
+[2017.05.22-18.09.19:444][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/Developers/NMFTHEBEST/Collections/' took 0.01s
+[2017.05.22-18.09.19:444][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Projects/GIT/oneofhundred/Content/Collections/' took 0.01s
+[2017.05.22-18.09.19:444][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.22-18.09.19:467][  0]LogContentBrowser: Native class hierarchy populated in 0.0195 seconds. Added 2245 classes and 453 folders.
+[2017.05.22-18.09.19:536][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.22-18.09.20:293][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.22-18.09.20:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.22-18.09.21:149][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.22-18.09.21:255][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.22-18.09.21:327][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.22-18.09.21:328][  0]LogLoad: (Engine Initialization) Total time: 60.64 seconds
+[2017.05.22-18.09.21:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.62 seconds
+[2017.05.22-18.09.21:328][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.22-18.09.21:742][  0]LogOcInput: OculusInput pre-init called
+[2017.05.22-18.09.21:971][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.22-18.09.22:051][  0]LogSlate: Took 0.010499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.22-18.09.22:071][  0]LogSlate: Took 0.010677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.22-18.09.22:090][  0]LogSlate: Took 0.005374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.22-18.09.22:656][  0]LogRenderer: Reallocating scene render targets to support 904x456 NumSamples 1 (Frame:2).
+[2017.05.22-18.09.23:056][  1]LogSlate: Took 0.017250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-18.09.23:634][  3]LogAssetRegistry: Asset discovery search completed in 34.0498 seconds
+[2017.05.22-18.09.23:634][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2017.05.22-18.09.23:634][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.05.22-18.09.26:677][ 12]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-18.09.27:188][ 12]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.22-18.09.27:384][ 12]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.05.22-18.09.35:427][639]LogSlate: Took 0.013178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.22-18.09.35:635][640]LogSlate: Took 0.001254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.22-18.10.35:483][629]SourceControl: Info On branch master
+[2017.05.22-18.10.35:483][629]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.22-18.10.35:483][629]SourceControl: Info Changes not staged for commit:
+[2017.05.22-18.10.35:483][629]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.22-18.10.35:483][629]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	modified:   Saved/Logs/oneofhundred.log
+[2017.05.22-18.10.35:483][629]SourceControl: Info Untracked files:
+[2017.05.22-18.10.35:483][629]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	Saved/Logs/UE4CC-Windows-B323FD1342DAA7CAA84AA89748DCFF66/
+[2017.05.22-18.10.35:483][629]SourceControl: Info 	Saved/Logs/oneofhundred-backup-2017.05.22-20.08.26.log
+[2017.05.22-18.10.35:483][629]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.22-18.11.00:625][417]LogSavePackage: Save=84.87ms
+[2017.05.22-18.11.00:625][417]LogSavePackage: Moving '../../../../../../UE4Projects/GIT/oneofhundred/Saved/ThirdPersonCharacter37B2895645D3D0B3D131CD9DB5129D90.tmp' to '../../../../../../UE4Projects/GIT/oneofhundred/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.22-18.11.00:651][417]LogSavePackage:Display: Finished SavePackage ../../../../../../UE4Projects/GIT/oneofhundred/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.22-18.11.07:827][825]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.22-18.11.07:880][825]SourceControl: Info [master 22a870f] jamper
+[2017.05.22-18.11.07:880][825]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.05.22-18.11.07:884][825]SourceControl: Info Commited [master 22a870f] jamper.
+[2017.05.22-18.11.12:112][308]SourceControl: Info fatal: D:/epicgameslauncher/Unreal Engine/UE_4.15/Engine/Content/: 'D:/epicgameslauncher/Unreal Engine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.22-18.11.12:221][308]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../UE4Projects/GIT/oneofhundred/oneofhundred.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.22-18.11.12:436][308]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.197 s
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: 
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../UE4Projects/GIT/oneofhundred/oneofhundred.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: Stack: 
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037F395E6
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037CE9B82
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037CFB666
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000004ADFA6E8
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000002EDA3D22
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000002EDA3EB9
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002BC21D2E
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002BBDB4B5
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002BBDAA8D
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002BBEF274
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x0000000023B1B851
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x0000000023B2D1ED
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000002EDA9C5C
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000032C37517
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000033442156
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor.exe!0x00000000077ADEE3
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor.exe!0x000000000779EB40
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor.exe!0x000000000779EBBA
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor.exe!0x00000000077B0A29
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: UE4Editor.exe!0x00000000077B22B6
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: KERNEL32.DLL!0x000000007A2A2774
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: ntdll.dll!0x000000007AA00D61
+[2017.05.22-18.11.12:436][308]LogOutputDevice:Error: 
+[2017.05.22-18.11.12:446][308]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.22-18.11.14:437][308]LogStats:                    SendNewReport -  1.991 s
+[2017.05.22-18.11.14:437][308]LogStats:             FDebug::EnsureFailed -  2.216 s
+[2017.05.22-18.11.42:354][772]SourceControl: Info fatal: D:/epicgameslauncher/Unreal Engine/UE_4.15/Engine/Content/: 'D:/epicgameslauncher/Unreal Engine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.22-18.11.42:454][772]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../UE4Projects/GIT/oneofhundred/oneofhundred.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.22-18.12.12:153][902]SourceControl: Info Source control is disabled
+[2017.05.22-18.13.31:836][ 85]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.22-18.13.32:062][ 86]Cmd: QUIT_EDITOR
+[2017.05.22-18.13.32:213][ 86]LogExit: Preparing to exit.
+[2017.05.22-18.13.32:632][ 86]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/' was aborted.
+[2017.05.22-18.13.32:736][ 86]LogExit: Editor shut down
+[2017.05.22-18.13.32:736][ 86]LogExit: Transaction tracking system shut down
+[2017.05.22-18.13.33:101][ 86]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.22-18.13.33:101][ 86]LogExit: Object subsystem successfully closed.
+[2017.05.22-18.13.33:202][ 86]LogD3D11RHI: Shutdown
+[2017.05.22-18.13.33:202][ 86]LogD3D11RHI: CleanupD3DDevice
+[2017.05.22-18.13.33:282][ 86]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.22-18.13.33:325][ 86]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.22-18.13.33:325][ 86]LogDirectoryWatcher: A directory notification for 'D:/epicgameslauncher/Unreal Engine/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.22-18.13.33:327][ 86]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/Collections/' was aborted.
+[2017.05.22-18.13.33:327][ 86]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Content/Developers/NMFTHEBEST/Collections/' was aborted.
+[2017.05.22-18.13.33:327][ 86]LogDirectoryWatcher: A directory notification for 'D:/UE4Projects/GIT/oneofhundred/Saved/Collections/' was aborted.
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.22-18.13.33:327][ 86]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.22-18.13.33:338][ 86]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.22-18.13.33:453][ 86]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.22-18.13.33:453][ 86]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.22-18.13.33:453][ 86]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.22-18.13.33:453][ 86]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.22-18.13.33:476][ 86]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.22-18.13.33:518][ 86]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.22-18.13.33:518][ 86]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.22-18.13.33:518][ 86]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.22-18.13.33:518][ 86]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.22-18.13.33:518][ 86]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.22-18.13.33:536][ 86]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.22-18.13.33:536][ 86]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.22-18.13.33:546][ 86]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.22-18.13.33:546][ 86]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.22-18.13.33:577][ 86]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.22-18.13.33:819][ 86]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.22-18.13.33:828][ 86]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.22-18.13.33:838][ 86]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.22-18.13.33:838][ 86]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.22-18.13.33:838][ 86]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.22-18.13.33:838][ 86]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.22-18.13.33:839][ 86]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.22-18.13.33:839][ 86]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.22-18.13.33:839][ 86]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.22-18.13.33:839][ 86]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.22-18.13.33:939][ 86]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.22-18.13.34:039][ 86]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.22-18.13.34:046][ 86]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.22-18.13.34:046][ 86]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.22-18.13.34:046][ 86]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.22-18.13.34:062][ 86]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.22-18.13.34:088][ 86]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.22-18.13.34:105][ 86]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.22-18.13.34:105][ 86]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.22-18.13.34:105][ 86]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.22-18.13.34:105][ 86]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.22-18.13.34:114][ 86]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.22-18.13.34:114][ 86]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.22-18.13.34:115][ 86]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.22-18.13.34:293][ 86]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.22-18.13.34:293][ 86]LogDirectoryWatcher: A directory notification for '../../../../../../UE4Projects/GIT/oneofhundred/Content/' was aborted.
+[2017.05.22-18.13.34:293][ 86]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.22-18.13.34:293][ 86]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.22-18.13.34:356][ 86]LogDerivedDataCache: Shutdown
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.22-18.13.34:356][ 86]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.22-18.13.34:357][ 86]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.22-18.13.34:357][ 86]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.22-18.13.34:366][ 86]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.22-18.13.34:366][ 86]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.22-18.13.34:366][ 86]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C214568-4906-858B-39D5-A29C9818E4C4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=f0415fa5454c0cf01bbb6795b0700074%7C68bbf7274cac457bba6a316d7733ac72%7Ccef483d2-3334-4fa4-940f-0f9b564e3ca1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.22-18.13.34:394][ 86]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.22-18.13.34:395][ 86]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.22-18.13.34:395][ 86]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.22-18.13.34:395][ 86]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.22-18.13.34:395][ 86]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.22-18.13.34:395][ 86]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.22-18.13.34:396][ 86]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.22-18.13.34:419][ 86]LogExit: Exiting.
+[2017.05.22-18.13.34:424][ 86]Log file closed, 05/22/17 20:13:34
