@@ -73,3 +73,8 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Saved/AutoScreenshot.png
+Intermediate/CachedAssetRegistry.bin
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Config/Windows/SourceControlSettings.ini
+Saved/Logs/oneofhundred.log
